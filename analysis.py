@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # Load the dataset
 def load_data():
-    data = pd.read_csv(r"C:\Users\kesha\Downloads\final_df.csv")
+    data = pd.read_csv("final_df.csv")
     data.drop(columns=["Unnamed: 0"], inplace=True)  # Remove unnecessary column
     return data
 
